@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test name="TestChrome(failed)" parallel="tests">
+    <parameter name="node" value="http://192.168.0.4:4444/wd/hub"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.orbitor.test.VerifyProductVersion">
+        <methods>
+          <include name="openApp"/>
+          <include name="testInvalidLogin"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.orbitor.test.VerifyProductVersion -->
+    </classes>
+  </test> <!-- TestChrome(failed) -->
+  <test name="TestFirefox(failed)" parallel="tests">
+    <parameter name="node" value="http://192.168.0.4:4444/wd/hub"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.orbitor.test.VerifyProductVersion">
+        <methods>
+          <include name="openApp"/>
+          <include name="testInvalidLogin"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- com.orbitor.test.VerifyProductVersion -->
+    </classes>
+  </test> <!-- TestFirefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Suite" parallel="tests">
+
+  <test name="TestFirefox">
+  <parameter name="node" value="http://192.168.0.4:4444/wd/hub"></parameter>
+  <parameter name="browser" value="firefox"></parameter>
+    <packages>
+      <package name="com.orbitor.test"></package>      
+    </packages>
+  </test> 
+  
+  <test name="TestChrome">
+  <parameter name="node" value="http://192.168.0.4:4444/wd/hub"></parameter>
+  <parameter name="browser" value="chrome"></parameter>
+    <packages>
+      <package name="com.orbitor.test"></package>      
+    </packages>
+  </test> 
+  
+</suite> 

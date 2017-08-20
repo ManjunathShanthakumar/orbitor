@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Title is matching]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+    <line>
+      <![CDATA[Element is present]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="109338" started-at="2017-08-20T04:47:53Z" finished-at="2017-08-20T04:49:43Z">
+    <groups>
+      <group name="valid">
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:com.orbitor.test.ValidLogin@2d554825]" name="testValidLogin" class="com.orbitor.test.ValidLogin"/>
+        <method signature="VerifyProductVersion.testInvalidLogin()[pri:3, instance:com.orbitor.test.VerifyProductVersion@68837a77]" name="testInvalidLogin" class="com.orbitor.test.VerifyProductVersion"/>
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:com.orbitor.test.ValidLogin@5a61f5df]" name="testValidLogin" class="com.orbitor.test.ValidLogin"/>
+        <method signature="VerifyProductVersion.testInvalidLogin()[pri:3, instance:com.orbitor.test.VerifyProductVersion@3551a94]" name="testInvalidLogin" class="com.orbitor.test.VerifyProductVersion"/>
+      </group> <!-- valid -->
+      <group name="invalid">
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:com.orbitor.test.InvalidLogin@77b52d12]" name="testInvalidLogin" class="com.orbitor.test.InvalidLogin"/>
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:com.orbitor.test.InvalidLogin@36f6e879]" name="testInvalidLogin" class="com.orbitor.test.InvalidLogin"/>
+      </group> <!-- invalid -->
+      <group name="login">
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:com.orbitor.test.InvalidLogin@77b52d12]" name="testInvalidLogin" class="com.orbitor.test.InvalidLogin"/>
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:com.orbitor.test.ValidLogin@2d554825]" name="testValidLogin" class="com.orbitor.test.ValidLogin"/>
+        <method signature="VerifyProductVersion.testInvalidLogin()[pri:3, instance:com.orbitor.test.VerifyProductVersion@68837a77]" name="testInvalidLogin" class="com.orbitor.test.VerifyProductVersion"/>
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:com.orbitor.test.InvalidLogin@36f6e879]" name="testInvalidLogin" class="com.orbitor.test.InvalidLogin"/>
+        <method signature="ValidLogin.testValidLogin()[pri:1, instance:com.orbitor.test.ValidLogin@5a61f5df]" name="testValidLogin" class="com.orbitor.test.ValidLogin"/>
+        <method signature="VerifyProductVersion.testInvalidLogin()[pri:3, instance:com.orbitor.test.VerifyProductVersion@3551a94]" name="testInvalidLogin" class="com.orbitor.test.VerifyProductVersion"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="TestChrome" duration-ms="98506" started-at="2017-08-20T04:47:53Z" finished-at="2017-08-20T04:49:32Z">
+      <class name="com.orbitor.test.ValidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.orbitor.test.ValidLogin@5a61f5df]" name="openApp" is-config="true" duration-ms="13869" started-at="2017-08-20T10:17:53Z" finished-at="2017-08-20T10:18:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.orbitor.test.ValidLogin@5a61f5df]" name="testValidLogin" duration-ms="10376" started-at="2017-08-20T10:18:07Z" finished-at="2017-08-20T10:18:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.orbitor.test.ValidLogin@5a61f5df]" name="closeApp" is-config="true" duration-ms="2487" started-at="2017-08-20T10:18:17Z" finished-at="2017-08-20T10:18:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.orbitor.test.ValidLogin -->
+      <class name="com.orbitor.test.InvalidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.orbitor.test.InvalidLogin@36f6e879]" name="openApp" is-config="true" duration-ms="10724" started-at="2017-08-20T10:18:20Z" finished-at="2017-08-20T10:18:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.orbitor.test.InvalidLogin@36f6e879]" name="testInvalidLogin" duration-ms="32612" started-at="2017-08-20T10:18:31Z" finished-at="2017-08-20T10:19:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.orbitor.test.InvalidLogin@36f6e879]" name="closeApp" is-config="true" duration-ms="2337" started-at="2017-08-20T10:19:03Z" finished-at="2017-08-20T10:19:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.orbitor.test.InvalidLogin -->
+      <class name="com.orbitor.test.VerifyProductVersion">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.orbitor.test.VerifyProductVersion@3551a94]" name="openApp" is-config="true" duration-ms="7314" started-at="2017-08-20T10:19:06Z" finished-at="2017-08-20T10:19:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:3, instance:com.orbitor.test.VerifyProductVersion@3551a94]" name="testInvalidLogin" duration-ms="18503" started-at="2017-08-20T10:19:13Z" finished-at="2017-08-20T10:19:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.orbitor.test.VerifyProductVersion@3551a94]" name="closeApp" is-config="true" duration-ms="238" started-at="2017-08-20T10:19:31Z" finished-at="2017-08-20T10:19:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.orbitor.test.VerifyProductVersion -->
+    </test> <!-- TestChrome -->
+    <test name="TestFirefox" duration-ms="109338" started-at="2017-08-20T04:47:53Z" finished-at="2017-08-20T04:49:43Z">
+      <class name="com.orbitor.test.ValidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.orbitor.test.ValidLogin@2d554825]" name="openApp" is-config="true" duration-ms="22129" started-at="2017-08-20T10:17:53Z" finished-at="2017-08-20T10:18:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLogin()[pri:1, instance:com.orbitor.test.ValidLogin@2d554825]" name="testValidLogin" duration-ms="11415" started-at="2017-08-20T10:18:15Z" finished-at="2017-08-20T10:18:27Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is matching]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.orbitor.test.ValidLogin@2d554825]" name="closeApp" is-config="true" duration-ms="590" started-at="2017-08-20T10:18:27Z" finished-at="2017-08-20T10:18:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.orbitor.test.ValidLogin -->
+      <class name="com.orbitor.test.InvalidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.orbitor.test.InvalidLogin@77b52d12]" name="openApp" is-config="true" duration-ms="11347" started-at="2017-08-20T10:18:27Z" finished-at="2017-08-20T10:18:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.orbitor.test.InvalidLogin@77b52d12]" name="testInvalidLogin" duration-ms="34395" started-at="2017-08-20T10:18:39Z" finished-at="2017-08-20T10:19:13Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+            <line>
+              <![CDATA[Element is present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.orbitor.test.InvalidLogin@77b52d12]" name="closeApp" is-config="true" duration-ms="215" started-at="2017-08-20T10:19:13Z" finished-at="2017-08-20T10:19:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.orbitor.test.InvalidLogin -->
+      <class name="com.orbitor.test.VerifyProductVersion">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.orbitor.test.VerifyProductVersion@68837a77]" name="openApp" is-config="true" duration-ms="10427" started-at="2017-08-20T10:19:13Z" finished-at="2017-08-20T10:19:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.0.4:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:3, instance:com.orbitor.test.VerifyProductVersion@68837a77]" name="testInvalidLogin" duration-ms="18549" started-at="2017-08-20T10:19:24Z" finished-at="2017-08-20T10:19:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.orbitor.test.VerifyProductVersion@68837a77]" name="closeApp" is-config="true" duration-ms="241" started-at="2017-08-20T10:19:42Z" finished-at="2017-08-20T10:19:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.orbitor.test.VerifyProductVersion -->
+    </test> <!-- TestFirefox -->
+  </suite> <!-- Suite -->
+</testng-results>
